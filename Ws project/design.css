@@ -1,0 +1,181 @@
+.container {
+    width: 1920px;
+    height: 960px;
+    position: relative;
+    background: white;
+  }
+  
+  .wrapper {
+    width: 1437px;
+    height: 719px;
+    position: absolute;
+    left: 433px;
+    top: 136px;
+  }
+  
+  .image {
+    width: 620px;
+    height: 677px;
+    position: absolute;
+    left: 667px;
+    top: 5px;
+  }
+  
+  .shapes {
+    width: 660px;
+    height: 719px;
+    position: absolute;
+    left: 627px;
+    top: 0px;
+  }
+  
+  .shape1, .shape2, .shape3, .shape4 {
+    position: absolute;
+    transform: rotate(-29.96deg);
+    transform-origin: 0 0;
+  }
+  
+  .shape1 {
+    width: 403.06px;
+    height: 81.17px;
+    left: 268.74px;
+    top: 642.52px;
+    background: linear-gradient(270deg, #FFB147 0%, #FF6C63 52%, #B86ADF 100%);
+  }
+  
+  .shape2 {
+    width: 452.01px;
+    height: 109.26px;
+    left: 0px;
+    top: 225.71px;
+    background: linear-gradient(270deg, #FFB147 0%, #FF6C63 52%, #B86ADF 100%);
+  }
+  
+  .shape3 {
+    width: 576.99px;
+    height: 178.98px;
+    left: 70.49px;
+    top: 311.19px;
+    background: linear-gradient(270deg, #FF6C63 0%, rgba(255, 177, 71, 0.20) 52%);
+  }
+  
+  .shape4 {
+    width: 576.99px;
+    height: 207.08px;
+    left: 40.22px;
+    top: 535.22px;
+    background: linear-gradient(270deg, #B238EF 0%, rgba(255, 177, 71, 0.33) 100%);
+  }
+  
+  .additional-elements {
+    width: 660px;
+    height: 714.47px;
+    position: absolute;
+    left: 0px;
+    top: 4.53px;
+  }
+  
+  .text-box {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    z-index: 1;
+    background-color: #d0f1e7;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex; /* Added */
+    align-items: center; /* Added */
+}
+
+  
+  .text-box-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  
+  .text {
+    color: #141313;
+    font-size: 40px;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px; 
+  }
+  
+  .subtext {
+    color: #141313;
+    font-size: 24px;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 30px; 
+    justify-content: flex-start;
+  }
+  
+  
+  
+  .sidebar {
+    width: 285px;
+    height: 960px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #141313;
+    border-right: 1px rgba(20, 19, 19, 0.10) solid;
+  }
+  
+  .sidebar-content {
+    width: 108px;
+    height: 782px;
+    position: absolute;
+    left: 48px;
+    top: 56px;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 9999px;
+    border: 1px solid;
+  }
+  
+  .menu {
+    width: 108px;
+    height: 180px;
+    position: absolute;
+    left: 0px;
+    top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    word-wrap: break-word;
+  }
+  
+  .name {
+    left: 10px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+  }
